@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "conciliabot": {
+      "type": "http",
+      "url": "https://mcp.conciliabot.ar/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CONCILIABOT_MCP_TOKEN}"
+      }
+    }
+  }
+}
